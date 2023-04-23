@@ -9,8 +9,8 @@ python -m grpc_tools.protoc -I./protos \
 
 ```bash
 protoc \
- --go_out=golang \
- --go-grpc_out=golang \
+ --go_out=. \
+ --go-grpc_out=. \
  ./protos/addressbook.proto
 ```
 
